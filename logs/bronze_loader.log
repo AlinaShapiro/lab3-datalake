@@ -1,0 +1,10 @@
+2025-06-02 06:40:49,249 - INFO - Loading CSV from: /app/data/source/online+retail+ii/online_retail_II.csv
+2025-06-02 06:40:53,347 - INFO - Saving to Bronze layer at: file:///app/data/bronze
+2025-06-02 06:40:58,723 - INFO - Data successfully saved to Bronze layer.
+2025-06-02 06:40:59,046 - INFO - Spark session stopped.
+2025-06-02 06:40:59,048 - INFO - Closing down clientserver connection
+2025-06-02 06:50:34,124 - INFO - Loading CSV from: /app/data/source/online+retail+ii/online_retail_II.csv
+2025-06-02 06:50:37,842 - INFO - Saving to Bronze layer at: file:///app/data/bronze
+2025-06-02 06:50:48,702 - INFO - Data successfully saved to Bronze layer.
+2025-06-02 06:50:49,099 - INFO - Spark session stopped.
+2025-06-02 06:50:49,101 - INFO - Closing down clientserver connection

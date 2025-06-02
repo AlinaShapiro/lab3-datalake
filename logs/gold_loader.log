@@ -1,0 +1,8 @@
+2025-06-02 07:01:23,037 - INFO - Loading data from Silver layer at file:///app/data/silver
+2025-06-02 07:01:24,808 - INFO - Available columns in Silver: ['CustomerID', 'TotalSpending', 'PurchaseFrequency']
+2025-06-02 07:01:32,931 - INFO - Creating Gold layer from aggregated metrics
+2025-06-02 07:01:32,964 - INFO - Gold layer sample:
+2025-06-02 07:01:33,662 - INFO - Writing Gold layer data to file:///app/data/gold
+2025-06-02 07:01:36,055 - INFO - Gold layer created with 5925 records
+2025-06-02 07:01:36,396 - INFO - Spark session stopped.
+2025-06-02 07:01:36,398 - INFO - Closing down clientserver connection

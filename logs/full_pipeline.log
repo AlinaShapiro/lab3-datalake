@@ -1,0 +1,25 @@
+2025-06-02 07:40:53,894 - INFO - 
+=== BRONZE LAYER ===
+2025-06-02 07:40:53,895 - INFO - Loading raw data from /app/data/source/online+retail+ii/online_retail_II.csv
+2025-06-02 07:40:53,897 - INFO - Saving to Bronze layer at: file:///app/data/bronze
+2025-06-02 07:41:06,880 - INFO - Data successfully saved to Bronze layer: file:///app/data/bronze
+2025-06-02 07:41:06,881 - INFO - 
+=== SILVER LAYER ===
+2025-06-02 07:41:06,884 - INFO - Processing data from file:///app/data/bronze
+2025-06-02 07:41:07,102 - INFO - Silver data sample:
+2025-06-02 07:41:12,148 - INFO - Data successfully saved to Silver layer: file:///app/data/silver
+2025-06-02 07:41:12,148 - INFO - 
+=== GOLD LAYER ===
+2025-06-02 07:41:12,148 - INFO - Preparing ML features from file:///app/data/silver
+2025-06-02 07:41:12,287 - INFO - Gold data sample:
+2025-06-02 07:41:15,848 - INFO - Gold layer created with 5925 records
+2025-06-02 07:41:15,848 - INFO - 
+=== LINEAR REGRESSION MODEL TRAINING ===
+2025-06-02 07:41:15,848 - INFO - Preparing data for modeling...
+2025-06-02 07:41:17,319 - INFO - Train samples: 4788, Test samples: 1137
+2025-06-02 07:41:17,465 - INFO - Training Linear Regression model...
+2025-06-02 07:41:22,859 - INFO - Model metrics: RMSE=4463.08, R2=0.78, MAE=345.18
+2025-06-02 07:41:36,487 - INFO - Model training and logging completed!
+2025-06-02 07:42:12,396 - INFO - Spark session stopped
+2025-06-02 07:42:18,398 - INFO - 
+=== PIPELINE COMPLETED ===

@@ -1,0 +1,7 @@
+2025-06-02 06:57:14,284 - INFO - Loading the data from Bronze at file:///app/data/bronze
+2025-06-02 06:57:16,287 - INFO - The data is successfully loaded from Bronze.
+2025-06-02 06:57:16,287 - INFO - Data cleaning...
+2025-06-02 06:57:16,473 - INFO - The data is cleaned and aggregated for the Silver Layer
+2025-06-02 06:57:28,188 - INFO - Data successfully saved to Silver layer.
+2025-06-02 06:57:28,268 - INFO - Spark session stopped.
+2025-06-02 06:57:28,270 - INFO - Closing down clientserver connection
