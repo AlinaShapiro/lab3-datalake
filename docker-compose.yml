@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  spark:
+    build: .
+    container_name: spark_app
+    environment:
+      - SPARK_DRIVER_MEMORY=2g
+      - SPARK_EXECUTOR_MEMORY=2g
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+      - ./logs:/app/logs
+    working_dir: /app
+    networks:
+    - datalake-net
+
+networks:
+  datalake-net:
